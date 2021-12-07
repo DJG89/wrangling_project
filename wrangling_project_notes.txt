@@ -1,0 +1,61 @@
+data wrangling project notes
+
+GATHERING 
+1. get twitter archive csv by clicking link; maybe need to use vpn or better internet
+connection
+
+DONE
+
+2. get "tweet predictions" tsv file programmatically.
+(need vpn)
+
+3.  get each tweet's retweet count and 
+favorite ("like") count at minimum, and any additional data you find interesting.
+
+- use python tweepy library to get the json data for each tweet
+- put all the json data into a file called tweet_json.txt
+- each tweet's data should get its own line
+- read said data into a pandas dataframe that has columns (at minimum)
+	-  tweet ID, retweet count, and favorite count
+
+8.21.21
+- Go back and watch all of the videos for APIs and JSON,
+- Then, take a stab at step 3.
+
+8.26.21
+
+for now, we've got all the data at least
+
+
+11.23.21
+
+There's three pieces of data and you need to check for issues for all three:
+   - quality : 
+completeness
+validity
+accuracy
+consistency
+
+   - tidiness:
+Each variable forms a column
+Each observation forms a row
+Each type of observational unit forms a table
+
+
+Detect and document at least eight (8) quality issues and two (2) tidiness issues:
+
+https://knowledge.udacity.com/questions/156058
+
+
+12.4.21 - Analysis
+
+What are some questions we can explore?
+
+- Which dog had the highest rating?
+- Which dog had the lowest rating?
+- On average which breed has the highest ratings?
+- most retweets
+- most favorites
+
+
+
